@@ -1,0 +1,19 @@
+{
+    "request": {
+        "parameters": {
+            "url": "http://twitter.com/mehlah"
+        },
+        "response_type": "json",
+        "resource": "authorinfo",
+        "url": "http://otter.topsy.com/authorinfo.json?url=http%3A%2F%2Ftwitter.com%2Fmehlah"
+    },
+    "response": {
+        "name": "Mehdi Lahmam B.",
+        "url": "http://twitter.com/mehlah",
+        "type": "twitter",
+        "nick": "mehlah",
+        "description": "",
+        "topsy_author_url": "http://topsy.com/twitter/mehlah",
+        "influence_level": 0
+    }
+}
