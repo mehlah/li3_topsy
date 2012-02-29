@@ -13,7 +13,7 @@ class Topsy extends \lithium\data\source\Http {
 	protected $_classes = array(
 		'service' => 'lithium\net\http\Service',
 		'entity' => 'lithium\data\entity\Document',
-		'set' => 'lithium\data\collection\DocumentSet',
+		'set' => 'lithium\data\collection\DocumentSet'
 	);
 
 	/**
@@ -128,12 +128,14 @@ class Topsy extends \lithium\data\source\Http {
 	 *
 	 * - 'page' Page number of the result set. (default: 1, max: 10)
 	 * - 'perpage' Limit number of results per page. (default: 10, max: 100)
-	 * - 'offset' Offset from which to start the results, should be set to last_offset parameter returned in the previous page.
+	 * - 'offset' Offset from which to start the results,
+	 *     should be set to last_offset parameter returned in the previous page.
 	 * - 'mintime' Earliest date/time to restrict a result set. unix-timestamp format.
 	 * - 'maxtime' Most recent date/time to restrict a result set. unix-timestamp format.
 	 * - 'nohidden' Toggles hiding of duplicate results. default is 1, which means no results are hidden.
 	 *     nohidden=0 will return unique results only.
-	 * - 'allow_lang' Language filter which lets you specify the languages you would like to see results in. Currently supports ja, zh, ko and en. Option also takes a comma separated list of languages.
+	 * - 'allow_lang' Language filter which lets you specify the languages you would like to see results in.
+	 *     Currently supports ja, zh, ko and en. Option also takes a comma separated list of languages.
 	 * - 'family_filter' Filters all content containing profanity. Should be set to 1
 	 *
 	 * @var array
