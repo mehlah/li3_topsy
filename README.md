@@ -1,6 +1,6 @@
 # Topsy
 
-li3\_topsy offers integration between [Lithium] [lithium] and [Topsy's Otter API] [topsy].
+`li3_topsy` offers integration between [Lithium](http://lithify.me) and [Topsy's Otter API](http://topsy.com).
 
 Otter API is a RESTful HTTP web service to Topsy. Topsy is a search engine that ranks links, photos and tweets by the number and quality of retweets they receive. The quality of retweets is determined by the influence of the Twitter users.
 
@@ -10,21 +10,20 @@ The Otter API provides access to topsy search results, url information and autho
 
 Theres a couple ways to get setup.
 
-The best way is to add li3\_topsy as a Git submodule, in order
-to keep up with the latest upgrades.
+### Composer
 
-An alternative option is just to download li3\_topsy files under your main `libraries`
-folder, or your `app/libraries` folder. You need to enable it by placing the
-following at the end of your `app/config/bootstrap/libraries.php` file:
+This library is installable via [Composer](https://getcomposer.org/) as [mehlah/li3_topsy](https://packagist.org/packages/mehlah/li3_topsy).
 
-```php
-Libraries::add('li3_topsy');
-```
+### Git submodule
+
+Add `li3_topsy` as a Git submodule, in order to keep up with the latest updates.
+
+
+Don't forget to add the library to your application in `config/bootstrap/libraries.php`
+
+    Libraries::add('li3_topsy');
+
 
 ## Usage
 
 Writing in progress...
-
-
-[lithium]: http://lithify.me
-[topsy]: http://topsy.com
