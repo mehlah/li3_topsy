@@ -1,0 +1,19 @@
+{
+    "name": "mehlah/li3_topsy",
+    "description": "Lithium HTTP data source for Topsy Otter API (http://topsy.com)",
+    "type": "lithium-library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mehdi Lahmam B.",
+            "email": "mehdi@lahmam.com"
+        }
+    ],
+    "require": {
+        "composer/installers": "*"
+    },
+    "suggest": {
+        "UnionOfRAD/lithium": "Lithium is required for this plugin."
+    },
+    "minimum-stability": "dev"
+}
